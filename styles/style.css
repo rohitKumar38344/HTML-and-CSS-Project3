@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  padding: 2.4rem 4.8rem;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #000;
+}
+
+.logo-container {
+  padding-right: 4.8rem;
+  border-right: 2px solid;
+}
+.logo-container img {
+  width: 10rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 5.2rem;
+}
+
+.nav-list-items a:link,
+.nav-list-items a:visited {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/bg.png");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.heading-primary {
+  font-size: 8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 1.6rem;
+  max-width: 85rem;
+}
+
+.description {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 4.8rem;
+}
+
+.btn {
+  font-weight: 600;
+  font-family: inherit;
+  padding: 0.5em 1.8em;
+  font-size: 1.6rem;
+  background-color: #ba0cc5;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.early-access-btn {
+  font-size: 3rem;
+  padding: 0.6em;
+}
